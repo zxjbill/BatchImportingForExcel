@@ -35,3 +35,5 @@ HEADERS += \
 FORMS += \
         widget.ui
 QT += axcontainer
+
+RC_ICONS = input.ico

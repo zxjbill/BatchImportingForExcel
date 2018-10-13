@@ -17,6 +17,7 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
+    this->setWindowTitle(QStringLiteral("批量导入"));
     ui->label->setVisible(false);
     excel.setControl("Excel.Application");
     excel.setProperty("Visible", false); // 在实际使用中可设置为false，不让用户看到底层运行
